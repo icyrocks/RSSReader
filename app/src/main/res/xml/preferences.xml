@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="流量控制" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="imgLoad"
+            android:summary="默认自动加载图片"
+            android:title="自动接收图片" />
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="缓存设置" >
+        <Preference
+            android:key="clearCache"
+            android:summary="0KB"
+            android:title="清除缓存" >
+        </Preference>
+    </PreferenceCategory>
+   
+    <PreferenceCategory android:title="其他" >
+        <PreferenceScreen
+            android:key="about"
+            android:summary="软件介绍"
+            android:title="关于作者" >
+        </PreferenceScreen> 
+       
+    </PreferenceCategory>
+</PreferenceScreen>

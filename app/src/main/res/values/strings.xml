@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">RSSReader</string>
+	<string-array name="feedcategory">
+	    <item >人文</item>
+	    <item >科技</item>
+	    <item >声音</item>
+	    <item >豆瓣</item>
+	    <item >新闻</item>
+	    <item >生活</item>
+	    <item >娱乐</item>
+	    <item >IT博客</item>
+	    <item >自定义源</item>
+	</string-array>
+	
+	<string-array name="feedcategory_en">
+	    <item >culture</item>
+	    <item >science</item>
+	    <item >voices</item>
+	    <item >douban</item>
+	    <item >news</item>
+	    <item >life</item>
+	    <item >fun</item>
+	    <item >IT</item>
+	    <item >myfeed</item>
+	</string-array>
+	
+	<string name="pull_to_refresh_pull_label" translatable="false">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中&#8230;</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+</resources>
